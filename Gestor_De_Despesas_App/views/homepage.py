@@ -184,8 +184,13 @@ def criar_homepage_view(page, user_id):
         # BOTTOMSHEET CONTAINER
         bottomsheet_container= ft.BottomSheet(
             ft.Container(
-                conteudo_bottomsheet,
-                padding=20
+                content=conteudo_bottomsheet,
+                width=320,
+                height=180,
+                padding=20,
+                alignment=ft.alignment.center,
+                bgcolor="#0a85ff",
+                border_radius=15,
             ),
             open= True, # faz com que apareça imediatamente
             bgcolor="#0a85ff"

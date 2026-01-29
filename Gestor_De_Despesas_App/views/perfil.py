@@ -189,7 +189,12 @@ def criar_perfil_view(page):
     # BottomSheet
     bottomsheet= ft.BottomSheet(
         content= ft.Container(
+            width=320,              # largura fixa (mobile)
+            height=180,             # altura fixa
             padding=20,
+            alignment=ft.alignment.center,
+            bgcolor="#0a85ff",
+            border_radius=15,
             content= ft.Column([
                 ft.Text(
                     "Eliminar conta?",
