@@ -1,0 +1,24 @@
+splash exemplos:
+
+"https://lottie.host/01f64d6b-dc52-4030-937f-1c8dd6563f52/gfVykcUyDn.json"
+
+"https://lottie.host/176bb327-49b7-45df-89d2-d163479b26ff/k8giVdHtg0.json"
+
+carteira exemplos:
+
+"https://lottie.host/f41bf524-5ae6-465c-b0cc-29de62921ae0/7Y5Kykubbw.json"
+
+registo exemplos:
+
+"https://lottie.host/b116c361-0fbf-48e6-9300-890c99cd170d/onM2jOo4it.json"
+
+"https://lottie.host/37bda325-757c-4878-ad68-afe87d58f8a3/AfixS7M8Nt.json"
+
+
+cartao exemplos:
+
+"https://lottie.host/ccd2a841-e314-42c3-8180-050c61568bc2/GHClRxsc4u.json"
+
+recuperação de password exemplos:
+
+https://lottie.host/9d6725e3-66c8-4994-b128-76bd8a3cc893/JYEMUJ4aDa.json

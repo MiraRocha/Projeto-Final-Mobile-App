@@ -1,0 +1,29 @@
+instalar flet:
+pip install flet
+
+para a janela atualizar sozinha sem fechar:
+flet -r main.py
+
+instalar lottie:
+pip install lottie
+
+correr no android ou ios:
+flet run main.py --android 
+flet run main.py --ios
+"gera um codigo QR onde podemos testar em android ou ios, mas para isso necessitamos de instalar a aplicação do flet"
+
+instalar firebase:
+pip install pyrebase4
+
+instalar firebase admin:
+pip install firebase-admin
+pip install --upgrade setuptools
+
+instalar dotenv:
+pip install python-dotenv
+
+executar pagina no terminal:
+python main.py
+
+pasta projeto:
+cd GestorDespapp
