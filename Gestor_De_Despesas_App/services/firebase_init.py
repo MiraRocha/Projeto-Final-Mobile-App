@@ -24,7 +24,7 @@ class FirebaseInit:
             # Se não existir, lança ValueError
         except ValueError:
             #usar variável de ambiente
-            caminho= os.getenv('FIREBASE_SERVICE_ACCOUNT_PATH', 'config/serviceAccountKey.json')
+            caminho = os.getenv("FIREBASE_SERVICE_ACCOUNT_PATH")
             cred= credentials.Certificate(caminho)
             firebase_admin.initialize_app(cred)
 
