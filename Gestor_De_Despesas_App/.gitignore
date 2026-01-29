@@ -1,80 +1,55 @@
-
 # VARIÁVEIS DE AMBIENTE
-
 .env
-.env.local
-.env.production
-.env.development
+.env.*
 *.env
 
-# CREDENCIAIS E CONFIGS SENSÍVEIS
+# CREDENCIAIS / CONFIGS SENSÍVEIS
 config/
 secrets/
-
-# Firebase Service Account Keys
 serviceAccountKey.json
 *-firebase-adminsdk-*.json
 firebase-credentials.json
-
-# Ficheiros de configuração do Firebase
 firebase-config.json
 google-services.json
 GoogleService-Info.plist
 
-
 # PYTHON
-
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
 *.egg-info/
-pip-log.txt
+.Python
 .pytest_cache/
 .coverage
 .cache/
+pip-log.txt
 dist/
 build/
 
-# Virtual environments
+# VIRTUAL ENVS
 venv/
 env/
 .venv/
-.history/
-
 
 # FLET
 .flet/
-build/
-dist/
 
+# BASE DE DADOS LOCAL (opcional)
+*.sqlite3
+*.db
 
-# SISTEMA / EDITORS / IDEs
-# macOS
+# SISTEMA / IDEs
 .DS_Store
-
-# Windows
 Thumbs.db
 desktop.ini
-
-# VSCode
 .vscode/
 .idea/
-
-# Outros ficheiros de editor
 *.swp
 *.swo
+*~
 
-
-# LOGS
-
+# LOGS / BACKUPS
 *.log
 logs/
-
-
-# BACKUPS / TEMP
-
 *.tmp
 *.temp
 *.bak
