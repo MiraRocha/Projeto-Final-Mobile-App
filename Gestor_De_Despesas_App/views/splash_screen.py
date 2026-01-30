@@ -5,7 +5,7 @@ from routes.rotas import ROTA_LOGIN, ROTA_SPLASH
 def criar_splash_view(page):
 
     async def esperar_e_redirecionar(): #função vai esperar sem travar a interface
-        await asyncio.sleep(5) # Espera 5 segundos, mas ao contrário do time.sleep(), a animação do splash continua fluida, e a app não congela
+        await asyncio.sleep(6) # Espera 5 segundos, mas ao contrário do time.sleep(), a animação do splash continua fluida, e a app não congela
         page.go(ROTA_LOGIN)
 
     # Iniciar tarefa assíncrona sem bloquear UI
