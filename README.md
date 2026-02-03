@@ -99,7 +99,7 @@ Responsáveis exclusivamente pela **interface gráfica**, utilizando componentes
 🔐 Segurança
 
   Credenciais do Firebase protegidas por **variáveis de ambiente**
-  Ficheiros sensíveis excluídos via **.gitignore**
+  **.env** e ficheiros sensíveis excluídos via **.gitignore**
   Separação clara entre **lógica**, **dados** e **interface**
 
 ---
