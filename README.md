@@ -41,7 +41,6 @@ Perfil de utilizador
 
 
 
-Este projeto foi um grande desafio, especialmente ao nível da lógica, validação de dados e comunicação com a base de dados, mas também uma enorme oportunidade de crescimento técnico e pessoal.
 
 
 <img width="1920" height="1080" alt="Blue and White Gradient Modern Project Presentation" src="https://github.com/user-attachments/assets/2dc3cc8a-68c4-4413-ba3e-6a0a9277360e" />
