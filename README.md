@@ -106,9 +106,13 @@ Responsáveis exclusivamente pela **interface gráfica**, utilizando componentes
 A aplicação foi desenvolvida de forma **escalável**, permitindo facilmente:
 
  📤 Exportação de relatórios financeiros (PDF / Excel)
+ 
  📊 Gráficos avançados e comparativos
+ 
  🔄 Sincronização offline
+ 
  🎨 Melhorias no layout e responsividade
+ 
  📱 Publicação em Android e iOS
 
 ---
