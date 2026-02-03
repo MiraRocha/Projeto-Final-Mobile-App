@@ -1,144 +1,139 @@
-📱 Gestor de Despesas – Aplicação Mobile
+# 📱 Gestor de Despesas – Aplicação Mobile
 
-Aplicação mobile de gestão de despesas pessoais, desenvolvida em Python com Flet, com Firebase como backend.
-O projeto foi concebido com foco em organização financeira, boa arquitetura de software, validação de dados e experiência do utilizador.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Flet](https://img.shields.io/badge/Flet-UI-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
+![Architecture](https://img.shields.io/badge/Architecture-MVC-success)
+![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen)
 
-A aplicação segue o padrão MVC (Model–View–Controller), garantindo uma separação clara de responsabilidades, código limpo, facilidade de manutenção e elevada escalabilidade.
+Aplicação mobile de **gestão de despesas pessoais**, desenvolvida em **Python com Flet**, utilizando **Firebase** como backend.  
+O projeto foi concebido com foco em **organização financeira**, **boa arquitetura de software**, **validação de dados** e **experiência do utilizador**.
+
+A aplicação segue o padrão **MVC (Model–View–Controller)**, garantindo uma separação clara de responsabilidades, código limpo, facilidade de manutenção e **elevada escalabilidade**.
+
+---
 
 🎯 Objetivo do Projeto
 
 O objetivo principal desta aplicação é permitir ao utilizador:
 
-  Controlar despesas de forma simples e organizada
+  💸 Controlar despesas de forma simples e organizada  
+  💰 Acompanhar o saldo disponível em tempo real  
+  📜 Consultar históricos e estatísticas mensais  
+  🧱 Utilizar uma base sólida e escalável para futuras evoluções  
 
-  Acompanhar o saldo disponível em tempo real
+Este projeto foi desenvolvido como **Projeto Final**, servindo também como demonstração prática de competências em:
 
-  Consultar históricos e estatísticas mensais
-  
-Ter uma base sólida e escalável para futuras evoluções
+  Desenvolvimento mobile
+  Lógica de negócio  
+  Integração com serviços externos (Firebase)
 
-Este projeto foi desenvolvido como Projeto Final, servindo também como demonstração prática de competências em desenvolvimento mobile, lógica de negócio e integração com serviços externos.
+---
 
-🏗️ Arquitetura
+🏗️ Arquitetura (MVC)
 
-A aplicação segue o padrão MVC (Model–View–Controller):
+<img align="left" alt="MVC Architecture" height="30" width="40"
+src="https://raw.githubusercontent.com/andrews1022/readme-icons/main/icons/mvc.svg">
 
-  Controllers
-  Responsáveis pela lógica da aplicação, validação de dados e comunicação entre a UI e os serviços.
+A aplicação segue o padrão **Model–View–Controller (MVC)**:
 
-  Services
-  Encapsulam o acesso ao Firebase (Authentication e Firestore), garantindo isolamento da lógica de dados.
+🔹 Controllers
+Responsáveis pela **lógica da aplicação**, validação de dados e comunicação entre a interface e os serviços.
 
-  Views
-  Responsáveis exclusivamente pela interface gráfica, utilizando componentes reutilizáveis do Flet.
+🔹 Services
+Encapsulam o acesso ao **Firebase Authentication** e **Firestore**, garantindo isolamento da lógica de dados.
 
-Esta abordagem torna o projeto:
+🔹 Views
+Responsáveis exclusivamente pela **interface gráfica**, utilizando componentes reutilizáveis do **Flet**.
 
-  Mais organizado
+✔️ Mais organizado  
+✔️ Mais fácil de testar  
+✔️ Mais simples de escalar e manter  
 
-  Mais fácil de testar
-
-  Mais simples de escalar e manter
-  
+---
 
 🔧 Tecnologias Utilizadas
 
-  Python <img align="center" alt="Python" height="30" width="40"
-src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">–> linguagem principal
+| Tecnologia | Descrição |
+|-----------|----------|
+| 🐍 **Python** | Linguagem principal da aplicação |
+| 📱 **Flet** | Framework UI mobile multiplataforma |
+| 🔐 **Firebase Authentication** | Autenticação de utilizadores |
+| 🗄️ **Firebase Firestore** | Base de dados NoSQL |
+| 🧱 **MVC Pattern** | Arquitetura da aplicação |
 
-  Flet <img align="center" alt="Flet" height="30" width="40"
-src="https://raw.githubusercontent.com/flet-dev/flet/main/media/logo/flet-logo.svg">–> framework para UI mobile multiplataforma
-
-  Firebase Authentication <img align="center" alt="Firebase" height="30" width="40"
-src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg">–> autenticação de utilizadores
-
-  Firebase Firestore <img align="center" alt="Firebase" height="30" width="40"
-src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg">–> base de dados NoSQL
-
-  MVC Pattern ![Architecture](https://img.shields.io/badge/Architecture-MVC-blue)–> arquitetura da aplicação
-  
+---
 
 📱 Funcionalidades Principais
 
-🔐 Autenticação de utilizador
+🔐 Autenticação
+  Registo de utilizador  
+  Login  
+  Recuperação de palavra-passe  
 
-  Registo
+💰 Gestão de Saldo
+  Definição e atualização de saldo  
+  Cálculo automático após despesas  
 
-  Login
+### 🧾 Registo de Despesas
+  Por categoria  
+  Categoria personalizada  
+  Validação de valores e datas  
 
-  Recuperação de palavra-passe
-  
+📜 Histórico de Movimentos
+  Visualização cronológica  
+  Eliminação de movimentos com **rollback de saldo**  
 
-💰 Gestão de saldo
+📊 Estatísticas Mensais
+  Gráfico por categoria  
+  Total gasto por mês  
+  Histórico filtrado por mês e ano  
 
-  Definição e atualização do saldo
+👤 Perfil do Utilizador
+  Atualização de dados pessoais  
+  Seleção de avatar  
+  Eliminação de conta  
 
-  Cálculo automático após despesas
+---
 
-🧾 Registo de despesas
+ 🔐 Segurança
 
-  Por categoria
+- Credenciais do Firebase protegidas por **variáveis de ambiente**
+- Ficheiros sensíveis excluídos via **.gitignore**
+- Separação clara entre **lógica**, **dados** e **interface**
 
-  Categoria personalizada
+---
 
-  Validação de valores e datas
+## 🚀 Escalabilidade e Melhorias Futuras
 
-📜 Histórico de movimentos
+A aplicação foi desenvolvida de forma **escalável**, permitindo facilmente:
 
-  Visualização cronológica
+ 📤 Exportação de relatórios financeiros (PDF / Excel)
+ 📊 Gráficos avançados e comparativos
+ 🔄 Sincronização offline
+ 🎨 Melhorias no layout e responsividade
+ 📱 Publicação em Android e iOS
 
-  Eliminação de movimentos com rollback de saldo
+---
 
-📊 Estatísticas mensais
+## 🧠 Principais Desafios
 
-  Gráfico por categoria
+ Validação correta dos dados introduzidos pelo utilizador  
+ Gestão consistente do saldo e rollback de operações  
+ Organização eficaz da arquitetura MVC  
+ Integração fluida entre UI e Firebase  
 
-  Total gasto por mês
+---
 
-  Histórico filtrado por mês/ano
+## 📌 Repositório
 
-👤 Perfil do utilizador
+🔗 **GitHub:**  
+https://github.com/MiraRocha/AppMobile
 
-  Atualização de dados pessoais
+---
 
-  Seleção de avatar
+✨ Projeto desenvolvido como **Projeto Final**, refletindo evolução técnica, boas práticas de arquitetura e foco na experiência do utilizador.
 
-  Eliminação de conta
-  
-  
-🔐 Segurança
-
-  Credenciais do Firebase protegidas por variáveis de ambiente
-
-  .env e ficheiros sensíveis excluídos via .gitignore
-
-  Separação clara entre lógica, dados e interface
-  
-
-🚀 Escalabilidade e Melhorias Futuras
-
-A aplicação foi desenvolvida de forma escalável, permitindo facilmente:
-
-  📤 Exportação de relatórios financeiros (PDF / Excel)
-
-  📊 Gráficos avançados e comparativos
-
-  🔄 Sincronização offline
-
-  🎨 Melhorias no layout e responsividade
-
-  📱 Publicação em Android / iOS
-  
-
-🧠 Principais Desafios
-
-  Validação correta de dados introduzidos pelo utilizador
-
-  Gestão consistente do saldo e rollback de operações
-
-  Organização da arquitetura MVC
-
-  Integração fluida entre UI e Firebase
 
 
 
