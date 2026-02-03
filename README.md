@@ -39,28 +39,31 @@ Esta abordagem torna o projeto:
   Mais fácil de testar
 
   Mais simples de escalar e manter
+  
 
 🔧 Tecnologias Utilizadas
 
-  Python – linguagem principal
+  Python –> linguagem principal
 
-  Flet – framework para UI mobile multiplataforma
+  Flet –> framework para UI mobile multiplataforma
 
-  Firebase Authentication – autenticação de utilizadores
+  Firebase Authentication –> autenticação de utilizadores
 
-  Firebase Firestore – base de dados NoSQL
+  Firebase Firestore –> base de dados NoSQL
 
-  MVC Pattern – arquitetura da aplicação
+  MVC Pattern –> arquitetura da aplicação
+  
 
 📱 Funcionalidades Principais
 
-  🔐 Autenticação de utilizador
+🔐 Autenticação de utilizador
 
   Registo
 
   Login
 
   Recuperação de palavra-passe
+  
 
 💰 Gestão de saldo
 
@@ -68,7 +71,7 @@ Esta abordagem torna o projeto:
 
   Cálculo automático após despesas
 
-  🧾 Registo de despesas
+🧾 Registo de despesas
 
   Por categoria
 
@@ -76,7 +79,7 @@ Esta abordagem torna o projeto:
 
   Validação de valores e datas
 
-  📜 Histórico de movimentos
+📜 Histórico de movimentos
 
   Visualização cronológica
 
