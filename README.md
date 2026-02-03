@@ -96,15 +96,15 @@ Responsáveis exclusivamente pela **interface gráfica**, utilizando componentes
 
 ---
 
- 🔐 Segurança
+🔐 Segurança
 
-- Credenciais do Firebase protegidas por **variáveis de ambiente**
-- Ficheiros sensíveis excluídos via **.gitignore**
-- Separação clara entre **lógica**, **dados** e **interface**
+  Credenciais do Firebase protegidas por **variáveis de ambiente**
+  Ficheiros sensíveis excluídos via **.gitignore**
+  Separação clara entre **lógica**, **dados** e **interface**
 
 ---
 
-## 🚀 Escalabilidade e Melhorias Futuras
+🚀 Escalabilidade e Melhorias Futuras
 
 A aplicação foi desenvolvida de forma **escalável**, permitindo facilmente:
 
@@ -115,8 +115,7 @@ A aplicação foi desenvolvida de forma **escalável**, permitindo facilmente:
  📱 Publicação em Android e iOS
 
 ---
-
-## 🧠 Principais Desafios
+🧠 Principais Desafios
 
  Validação correta dos dados introduzidos pelo utilizador  
  Gestão consistente do saldo e rollback de operações  
@@ -124,8 +123,7 @@ A aplicação foi desenvolvida de forma **escalável**, permitindo facilmente:
  Integração fluida entre UI e Firebase  
 
 ---
-
-## 📌 Repositório
+📌 Repositório
 
 🔗 **GitHub:**  
 https://github.com/MiraRocha/AppMobile
