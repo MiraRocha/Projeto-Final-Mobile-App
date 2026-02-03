@@ -43,13 +43,17 @@ Esta abordagem torna o projeto:
 
 🔧 Tecnologias Utilizadas
 
-  Python –> linguagem principal
+  Python <img align="center" alt="Python" height="30" width="40"
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">–> linguagem principal
 
-  Flet –> framework para UI mobile multiplataforma
+  Flet <img align="center" alt="Flet" height="30" width="40"
+src="https://raw.githubusercontent.com/flet-dev/flet/main/media/logo/flet-logo.svg">–> framework para UI mobile multiplataforma
 
-  Firebase Authentication –> autenticação de utilizadores
+  Firebase Authentication <img align="center" alt="Firebase" height="30" width="40"
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg">–> autenticação de utilizadores
 
-  Firebase Firestore –> base de dados NoSQL
+  Firebase Firestore <img align="center" alt="Firebase" height="30" width="40"
+src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg">–> base de dados NoSQL
 
   MVC Pattern –> arquitetura da aplicação
   
