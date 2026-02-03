@@ -32,9 +32,6 @@ Este projeto foi desenvolvido como **Projeto Final**, servindo também como demo
 
 🏗️ Arquitetura (MVC)
 
-<img align="left" alt="MVC Architecture" height="30" width="40"
-src="https://raw.githubusercontent.com/andrews1022/readme-icons/main/icons/mvc.svg">
-
 A aplicação segue o padrão **Model–View–Controller (MVC)**:
 
 🔹 Controllers
