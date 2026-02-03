@@ -55,9 +55,7 @@ src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/fi
   Firebase Firestore <img align="center" alt="Firebase" height="30" width="40"
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg">–> base de dados NoSQL
 
-  MVC Pattern <img align="center" alt="MVC Architecture" height="30" width="40"
-src="https://raw.githubusercontent.com/andrews1022/readme-icons/main/icons/mvc.svg">
-–> arquitetura da aplicação
+  MVC Pattern ![Architecture](https://img.shields.io/badge/Architecture-MVC-blue)–> arquitetura da aplicação
   
 
 📱 Funcionalidades Principais
