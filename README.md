@@ -1,6 +1,6 @@
 # 📱 Gestor de Despesas – Aplicação Mobile
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
 ![Flet](https://img.shields.io/badge/Flet-UI-blue)
 ![Firebase](https://img.shields.io/badge/Firebase-Backend-orange?logo=firebase)
 ![Architecture](https://img.shields.io/badge/Architecture-MVC-success)
