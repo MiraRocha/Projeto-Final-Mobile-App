@@ -1,44 +1,137 @@
-Projeto Final do Curso CET Técnico/a Especialista em Tecnologias e Programação de Sistemas de Informação 
+📱 Gestor de Despesas – Aplicação Mobile
 
+Aplicação mobile de gestão de despesas pessoais, desenvolvida em Python com Flet, com Firebase como backend.
+O projeto foi concebido com foco em organização financeira, boa arquitetura de software, validação de dados e experiência do utilizador.
 
+A aplicação segue o padrão MVC (Model–View–Controller), garantindo uma separação clara de responsabilidades, código limpo, facilidade de manutenção e elevada escalabilidade.
 
-Aplicação Mobile – Gestor de Despesas 📲
+🎯 Objetivo do Projeto
 
+O objetivo principal desta aplicação é permitir ao utilizador:
 
+  Controlar despesas de forma simples e organizada
 
-Concluí e apresentei com sucesso o meu projeto final: uma aplicação mobile de gestão de despesas, desenvolvida com foco em organização financeira, boa arquitetura e experiência do utilizador.
+  Acompanhar o saldo disponível em tempo real
 
+  Consultar históricos e estatísticas mensais
+  
+Ter uma base sólida e escalável para futuras evoluções
 
+Este projeto foi desenvolvido como Projeto Final, servindo também como demonstração prática de competências em desenvolvimento mobile, lógica de negócio e integração com serviços externos.
 
-O projeto foi construído seguindo o padrão MVC (Model–View–Controller), permitindo uma separação clara de responsabilidades, código mais limpo e maior facilidade de manutenção e evolução.
+🏗️ Arquitetura
 
+A aplicação segue o padrão MVC (Model–View–Controller):
 
+  Controllers
+  Responsáveis pela lógica da aplicação, validação de dados e comunicação entre a UI e os serviços.
 
-🔧 Tecnologias utilizadas:
+  Services
+  Encapsulam o acesso ao Firebase (Authentication e Firestore), garantindo isolamento da lógica de dados.
 
+  Views
+  Responsáveis exclusivamente pela interface gráfica, utilizando componentes reutilizáveis do Flet.
 
+Esta abordagem torna o projeto:
 
-Python
+  Mais organizado
 
-Flet (UI mobile)
+  Mais fácil de testar
 
-Firebase (Authentication e Firestore)
+  Mais simples de escalar e manter
 
+🔧 Tecnologias Utilizadas
 
-📱 Funcionalidades principais:
+  Python – linguagem principal
 
-Autenticação de utilizador
+  Flet – framework para UI mobile multiplataforma
 
-Gestão de saldo
+  Firebase Authentication – autenticação de utilizadores
 
-Registo e eliminação de despesas
+  Firebase Firestore – base de dados NoSQL
 
-Histórico de movimentos
+  MVC Pattern – arquitetura da aplicação
 
-Estatísticas mensais por categoria
+📱 Funcionalidades Principais
 
-Perfil de utilizador
+  🔐 Autenticação de utilizador
 
+  Registo
+
+  Login
+
+  Recuperação de palavra-passe
+
+💰 Gestão de saldo
+
+  Definição e atualização do saldo
+
+  Cálculo automático após despesas
+
+  🧾 Registo de despesas
+
+  Por categoria
+
+  Categoria personalizada
+
+  Validação de valores e datas
+
+  📜 Histórico de movimentos
+
+  Visualização cronológica
+
+  Eliminação de movimentos com rollback de saldo
+
+📊 Estatísticas mensais
+
+  Gráfico por categoria
+
+  Total gasto por mês
+
+  Histórico filtrado por mês/ano
+
+👤 Perfil do utilizador
+
+  Atualização de dados pessoais
+
+  Seleção de avatar
+
+  Eliminação de conta
+  
+  
+🔐 Segurança
+
+  Credenciais do Firebase protegidas por variáveis de ambiente
+
+  .env e ficheiros sensíveis excluídos via .gitignore
+
+  Separação clara entre lógica, dados e interface
+  
+
+🚀 Escalabilidade e Melhorias Futuras
+
+A aplicação foi desenvolvida de forma escalável, permitindo facilmente:
+
+  📤 Exportação de relatórios financeiros (PDF / Excel)
+
+  📊 Gráficos avançados e comparativos
+
+  🔄 Sincronização offline
+
+  🎨 Melhorias no layout e responsividade
+
+  📱 Publicação em Android / iOS
+  
+
+🧠 Principais Desafios
+
+  Validação correta de dados introduzidos pelo utilizador
+
+  Gestão consistente do saldo e rollback de operações
+
+  Organização da arquitetura MVC
+
+  Integração fluida entre UI e Firebase
 
 
 
